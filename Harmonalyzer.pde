@@ -14,7 +14,7 @@ void setup() {
   size(2048, 512, P3D);
   img = loadImage("key.png");
   minim = new Minim(this);
-  jingle = minim.loadFile("Asus2.mp3",4096);
+  jingle = minim.loadFile("Asus2.mp3",4096); // change This!!!!!!!!!
   jingle.loop();
   
   fft = new FFT(jingle.bufferSize(), jingle.sampleRate());
